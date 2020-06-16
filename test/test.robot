@@ -11,7 +11,7 @@ Resource  ../utils/saveCouponApp.robot
 Resource  ../utils/myCouponsApp.robot
 Resource  ../utils/deleteCouponApp.robot
 Test Setup  utils.start session
-#Test Teardown  utils.close session
+Test Teardown  utils.close session
 
 *** Test Cases ***
 go to homepage

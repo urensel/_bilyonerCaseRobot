@@ -4,9 +4,7 @@ Resource  ./po/chooseMatch.robot
 
 *** Keywords ***
 chooseMatch
-    BuiltIn.Sleep  1
-    chooseMatch.manage window
-    BuiltIn.Sleep  1
+    chooseMatch.wait until login button is visible
     chooseMatch.clicked match button
     BuiltIn.Sleep  1
     chooseMatch.clicked close popup button
